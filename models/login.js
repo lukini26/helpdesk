@@ -1,6 +1,6 @@
 NEWSCHEMA('Login').make(function(schema) {
 
-	schema.define('email', 'Email', true);
+	schema.define('email', 'String(50)', true);
 	schema.define('password', 'String(30)', true);
 
 	schema.addWorkflow('exec', function(error, model, controller, callback) {
@@ -9,7 +9,7 @@ NEWSCHEMA('Login').make(function(schema) {
 
 		sql.select('item', 'tbl_user').make(function(builder) {
 			builder.fields('id', 'isactivated', 'isconfirmed');
-			builder.where('email', model.email);
+			builder.where('name', model.email);
 			builder.where('password', model.password.sha1());
 			builder.where('isremoved', false);
 			builder.first();
