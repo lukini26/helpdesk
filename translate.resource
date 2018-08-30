@@ -67,82 +67,82 @@ T2569629         : Guardar
 // public\templates\account.html, public\templates\users.html
 T-534716960      : Archivo demasiado grande.
 T-1679829923     : Compania
-T812449097       : Position
+T812449097       : Posicion
 
 // public\templates\account.html, public\templates\tickets-detail.html, public\templates\tickets.html
 T-600908817      : '# minutos', '# minute', '# minutos', '# minutos'
 
 // public\templates\account.html, public\templates\tickets-detail.html, public\templates\tickets.html, public\templates\users.html
-T505523517       : Subscription
+T505523517       : Subscripcion
 
 // public\templates\tickets-detail.html
 T2062599         : Regresar
 T1629202496      : Agregar Minutos
-T-2026550241     : Labels
-T-872494519      : Assign me
+T-2026550241     : Banderas 
+T-872494519      : Apropiarme
 T-1089068460     : Cerrar ticket
 T-961405656      : Re-Abrir ticket
 T2086153736      : Eliminar ticket
 T1325676155      : Tiempo expendido
 T-70705490       : Este ticket
 T1575642361      : Mes actual
-T1383663147      : Completado
+T1383663147      : Completo
 T-145956470      : Este ticket es asignado por usted.
 T334140074       : Este ticket no contiene ningun comentario.
 T1556591001      : Solucion
 T2155050         : Editar
 T-1357520532     : cerrado
 T1032724900      : re-abierto
-T-1156627427     : <b>added {{ body | pluralize('# minutos', '# minute', '# minutos', '# minutos') }}</b> of work
-T1289840932      : <b>set labels</b>
-T-669849323      : <b>assigned ticket</b>
+T-1156627427     : <b>agregado {{ body | pluralize('# minutos', '# minute', '# minutos', '# minutos') }}</b> of work
+T1289840932      : <b>Setear banderas</b>
+T-669849323      : <b>Tcikect ya asignado</b>
 T2076098         : Body
 T1401798712      : Editor supports <i class="fa fa-code"></i>Markdown syntax and drag &amp; drop <i class="fa fa-file-o"></i>files.
-T-1870058802     : Add spent minutos
-T-2116226852     : How many minutos did you spend on this ticket?
+T-1870058802     : agregar minutos utilizados
+T-2116226852     : cuantos puntos desea gastar?
 T527406493       : Set labels
-T-1653453382     : Are you sure you want to remove this comment?
-T88775           : Yes
-T-1356882055     : Are you sure you want to remove this ticket?
+T-1653453382     : esta seguro/a de eliminar este comentario?
+T88775           : Si
+T-1356882055     : esta seguro/a que desea eliminar este ticket?
 
 // public\templates\tickets-detail.html, views\mails\notify-comment.html
-T-549241921      : New comment
+T-549241921      : Nuevo comentario 
 
 // public\templates\tickets-detail.html, public\templates\tickets.html
-T-1202476446     : HIGH PRIORITY
-T-1838205928     : SUBMIT
-T-761422835      : Spent minutos
+T-1202476446     : ALTA PRIORIDAD
+T-1838205928     : ENVIAR
+T-761422835      : minutos
 
 // public\templates\tickets-detail.html, public\templates\users.html
-T-1854767153     : support
-T-1850743644     : Remove
+T-1854767153     : Soporte
+T-1850743644     : Eliminar
 
 // public\templates\tickets-detail.html, public\templates\tickets.html, public\templates\users.html
-T2011110042      : Cancel
+T2011110042      : Cancelar
 
 // public\templates\tickets.html
-T389448520       : All tickets
-T-1055177858     : All labels
-T-2107649988     : All languages
-T2464362         : Open
-T2021313932      : Closed
-T-896770029      : solver
+T389448520       : Todos los tickets
+T-1055177858     : Todas las Banderas
+T-2107649988     : Todos los Idiomas
+T2464362         : abierto
+T2021313932      : cerrado
+T-896770029      : resuleto
 T-1790093524     : Ticket
-T-1302660076     : e.g. A problem with layout
-T1971105535      : Ticket name
-T1355342585      : Project
+T-1302660076     : ej. pido implemnetacion para ...
+T1971105535      : nombre del Ticket 
+T1355342585      : Dependencia
 T1351314135      : You don't have purchased priority support.
 
 // public\templates\tickets.html, public\templates\users.html
-T77184           : NEW
-T1281387542      : Search ...
+T77184           : NUEVO
+T1281387542      : Buscar ...
 T-1974779697     : '# items','# item','# items','# items'
 T60935759        : '# pages','# page','# pages','# pages'
-T546904121       : All projects
-T861066414       : Page: #
+T546904121       : todos las dependencias
+T861066414       : Pagina: #
 T423569127       : # pages,# page,# pages,# pages
 T1367455719      : # items,# item,# items,# items
-T1575821685      : Database does not contain any data.
+T1575821685      : no hay data.
 
 // public\templates\users.html
 T113360553       : All users
